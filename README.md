@@ -19,7 +19,12 @@ Note: using under code to install habitat_lab
 /home/{user_name}/anaconda3/envs/habitat/bin/pip install -e .
 ```
 
-use a semantic 3d pointcloud of apartment_0's first floor in directory "semantic_3d_pointcloud"
+# Task 1: 2D semantic map construction
+use a semantic 3d pointcloud of apartment_0's first floor in directory "semantic_3d_pointcloud"</br>
+run the following command you can convert 3d point cloud to 2d map, which remove ceiling and floor</br>
+```
+python 3d_np2map.py
+```
 
 # Structure of directory
 ```
