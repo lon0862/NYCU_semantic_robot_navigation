@@ -21,9 +21,16 @@ Note: using under code to install habitat_lab
 
 # Task 1: 2D semantic map construction
 use a semantic 3d pointcloud of apartment_0's first floor in directory "semantic_3d_pointcloud"</br>
-run the following command you can convert 3d point cloud to 2d map, which remove ceiling and floor</br>
+run the following command you can convert 3d point cloud to 2d map(map.png), which remove ceiling and floor</br>
 ```
 python 3d_np2map.py
+```
+# Task 2:RRT
+run the following command you can assign a target, then click a point as start point, final you will get a RRT path.</br>
+Note: Our target categories are refrigerator, rack, cushion, lamp and cooktop.</br>
+if you need other target you can refrence color.csv.</br>
+```
+python RRT.py --target {target name}
 ```
 
 # Structure of directory
