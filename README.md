@@ -37,4 +37,27 @@ hw3
       +- lamp.png
       +- rack.png
       +- refrigerator.png
-      
+    +- RGB_img
+      +- cooktop
+        +- 0.png
+        ......
+      +- cushion
+        ......
+      +- lamp
+        ......
+      +- rack
+        ......
+      +- refrigerator
+        ......
+    +- video
+      +- cooktop.mp4
+      +- cushion.mp4
+      +- lamp.mp4
+      +- rack.mp4
+      +- refrigerator.mp4
+    +- word_coordinate
+      +- cooktop.txt
+      +- cushion.txt
+      +- lamp.txt
+      +- rack.txt
+      +- refrigerator.txt
