@@ -26,6 +26,11 @@ use a semantic 3d pointcloud of apartment_0's first floor in directory "semantic
 habitat-lab
   ......
 hw3
+  +- 3d_np2map.py
+  +- robot_navigation.py
+  +- RRT.py
+  +- map.png
+  +- color.csv
   +- semantic_3d_pointcloud
     +- color01.npy
     +- color0255.npy
