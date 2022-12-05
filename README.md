@@ -22,10 +22,11 @@ Note: using under code to install habitat_lab
 # Task 1: 2D semantic map construction
 use a semantic 3d pointcloud of apartment_0's first floor in directory "semantic_3d_pointcloud".</br>
 run the following command you can convert 3d point cloud to 2d map(map.png), which remove ceiling and floor.</br>
-![image](https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png)
 ```
 python 3d_np2map.py
 ```
+![image](https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png)
+
 # Task 2:RRT
 run the following command, you can assign a target first, then click a point as start point, final you will get a RRT path.</br>
 Note: Our target categories are refrigerator, rack, cushion, lamp and cooktop.</br>
@@ -33,6 +34,9 @@ if you need other target you can refrence color.csv.</br>
 ```
 python RRT.py --target {target name}
 ```
+Refrigerator</br>
+![image](https://github.com/lon0862/semantic_robot_navigation/blob/main/path_output/map_img/refrigerator.png)
+
 # Task 3:Robot Navigation
 run the following command, you can assign a target first, then you will get robot navigation in habitat with RRT path.</br>
 And it will save as video.</br>
