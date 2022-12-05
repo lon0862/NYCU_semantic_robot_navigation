@@ -25,7 +25,7 @@ run the following command you can convert 3d point cloud to 2d map(map.png), whi
 ```
 python 3d_np2map.py
 ```
-![image](img src="https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png" width="100" height="160")
+![image]<img src="https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png" width="100" height="160"/>
 
 # Task 2:RRT
 run the following command, you can assign a target first, then click a point as start point, final you will get a RRT path.</br>
