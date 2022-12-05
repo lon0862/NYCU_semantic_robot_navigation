@@ -25,7 +25,7 @@ run the following command you can convert 3d point cloud to 2d map(map.png), whi
 ```
 python 3d_np2map.py
 ```
-<img src="https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png" width="300" height="480"/>
+<img src="https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png" width="200" height="320"/>
 
 # Task 2:RRT
 run the following command, you can assign a target first, then click a point as start point, final you will get a RRT path.</br>
@@ -35,8 +35,7 @@ if you need other target you can refrence color.csv.</br>
 python RRT.py --target {target name}
 ```
 Refrigerator</br>
-![image](https://github.com/lon0862/semantic_robot_navigation/blob/main/path_output/map_img/refrigerator.png)
-
+<img src="https://github.com/lon0862/semantic_robot_navigation/blob/main/path_output/map_img/refrigerator.png" width="256" height="256"/>
 # Task 3:Robot Navigation
 run the following command, you can assign a target first, then you will get robot navigation in habitat with RRT path.</br>
 And it will save as video.</br>
