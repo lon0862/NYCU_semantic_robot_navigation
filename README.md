@@ -22,6 +22,7 @@ Note: using under code to install habitat_lab
 # Task 1: 2D semantic map construction
 use a semantic 3d pointcloud of apartment_0's first floor in directory "semantic_3d_pointcloud".</br>
 run the following command you can convert 3d point cloud to 2d map(map.png), which remove ceiling and floor.</br>
+![image](https://github.com/lon0862/semantic_robot_navigation/blob/main/map.png)
 ```
 python 3d_np2map.py
 ```
